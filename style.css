@@ -1,10 +1,9 @@
 body{
     height: 100vh;
     margin: 0;
-    /* overflow: hidden; */
     display: flex;
     flex-direction: column;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 .header-container{
@@ -59,6 +58,16 @@ li{
     margin: 0 0 10px 0;
 }
 
+.signup-button{
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color:#3882f6;
+    color: white;
+    border: 0;
+}
+
 .header-image{
     height: auto;
     width: 450px;
@@ -91,7 +100,7 @@ li{
 .image-placeholder{
     height: 130px;
     width: auto;
-    border: 2px solid #3882f6;;
+    border: 2px solid #3882f6;
     border-radius: 7px;
 }
 
@@ -146,6 +155,16 @@ li{
 
 .button-desc p{
     margin: 0;
+}
+
+.cta-signup-button{
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color:#3882f6;
+    color: white;
+    border: 2px solid white;
 }
 
 footer{
