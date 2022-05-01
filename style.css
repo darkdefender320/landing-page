@@ -1,0 +1,155 @@
+body{
+    height: 100vh;
+    margin: 0;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.header-container{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+.nav-container{
+    width: 900px;
+    margin: 16px 0 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container strong{
+    font-size: 24px;
+}
+
+.nav-container ul{
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.website-header-desc{
+    width: 900px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.website-header-text{
+    max-width: 400px;
+    height: auto;
+}
+
+.website-header-text h1{
+    font-size: 48px;
+    margin: 0;
+}
+.website-header-text p{
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+.header-image{
+    height: auto;
+    width: 450px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h2{
+    text-align: center;
+    font-size: 36px;
+}
+
+.content-images{
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.image-placeholder{
+    height: 130px;
+    width: auto;
+    border: 2px solid #3882f6;;
+    border-radius: 7px;
+}
+
+.quote-container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.quote{
+    margin: 100px 0 0 0;
+    width: 700px;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-author{
+    width: 700px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quote-author p{
+    margin: 0 0 100px 0;
+    font-size: 1.15rem;
+}
+
+.call-to-action-container{
+    margin: 100px 0 100px 0;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container{
+    width: 700px;
+    height: 100px;
+    padding: 0 100px 0 100px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 7px;
+}
+
+.button-desc p{
+    margin: 0;
+}
+
+footer{
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+}
