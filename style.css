@@ -6,6 +6,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
+/* flex 1 is used so the core divs keep size and push the footer to the bottom */
 .header-container{
     background-color: #1f2937;
     color: white;
@@ -15,6 +16,8 @@ body{
     align-items: center;
 }
 
+/* width 900px is used on some divs inside the core divs so the divs stay in the middle
+that follows the align items centre in the core div of the divs with width 900px */
 .nav-container{
     width: 900px;
     margin: 16px 0 100px 0;
